@@ -1,20 +1,25 @@
 {
-  "name": "mycodealongs",
+  "name": "atm-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "StringFormat.js",
+  "main": "Account.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "test": "jest --coverage",
+    "test:unit": "jest .unit. --coverage",
+    "test:int": "jest .int. --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irilias/atm-cli.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.21"
+  "bugs": {
+    "url": "https://github.com/irilias/atm-cli/issues"
   },
+  "homepage": "https://github.com/irilias/atm-cli#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "jest": "^28.1.0"
   }
 }
